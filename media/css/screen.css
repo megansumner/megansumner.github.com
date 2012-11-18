@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+html {
+  font-size: 131.25%;
+  line-height: 1.52381em;
+}
+
+html {
+  color: #404040;
+}
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+a:hover, a:active {
+  outline: none;
+}
+a:link, a:visited {
+  color: deepskyblue;
+  text-decoration: none;
+}
+a:focus, a:hover, a:active {
+  color: #ff0080;
+}
+
+body h1 {
+  font-size: 32px;
+  font-size: 1.52381rem;
+  line-height: 48px;
+  line-height: 2.28571rem;
+}
+@media (min-width: 39.70313em) {
+  body h1 {
+    font-size: 44px;
+    font-size: 2.09524rem;
+    line-height: 48px;
+    line-height: 2.28571rem;
+  }
+}
+body h1 a:link, body h1 a:visited {
+  color: #0099cc;
+}
+body h1 a:focus, body h1 a:hover, body h1 a:active {
+  color: #b30059;
+}
+body h2 {
+  font-size: 30px;
+  font-size: 1.42857rem;
+  line-height: 48px;
+  line-height: 2.28571rem;
+}
+@media (min-width: 39.70313em) {
+  body h2 {
+    font-size: 32px;
+    font-size: 1.52381rem;
+    line-height: 48px;
+    line-height: 2.28571rem;
+  }
+}
+body h3 {
+  margin-bottom: 32px;
+  margin-bottom: 1.52381rem;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+}
+body h4, body strong {
+  font-weight: bold;
+}
+body h5, body h6, body em, body blockquote {
+  font-style: italic;
+}
+body p, body ul, body ol, body pre, body blockquote {
+  margin-bottom: 32px;
+  margin-bottom: 1.52381rem;
+}
+body p:empty {
+  display: none;
+}
+body ul {
+  list-style-type: disc;
+}
+body ol {
+  list-style-type: decimal;
+}
+body blockquote {
+  padding: 0 24px;
+  padding: 0 1.14438rem;
+  border-left: 8px solid #cccccc;
+  border-left: 0.38095rem solid #cccccc;
+}
+body blockquote em {
+  font-style: normal;
+}
+body ul ul, body ul ol, body ol ul, body ol ol, body blockquote ul, body blockquote ol {
+  margin-left: 32px;
+  margin-left: 1.52381rem;
+}
+
+@font-face {
+  font-family: "IcoMoon";
+  src: url('../fonts/Icons.eot');
+  src: url('../fonts/Icons.eot?#iefix') format('eot'), url('../fonts/Icons.svg#Icons') format('svg'), url('../fonts/Icons.woff') format('woff'), url('../fonts/Icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[data-icon]:before {
+  font-family: 'IcoMoon';
+  font-style: normal;
+  speak: none;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  content: attr(data-icon);
+}
+
+body {
+  max-width: 635px;
+  max-width: 30.25rem;
+  padding-left: 21px;
+  padding-left: 1rem;
+  padding-right: 21px;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin-top: 32px;
+  margin-top: 1.52381rem;
+}
