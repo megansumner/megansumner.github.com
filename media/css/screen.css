@@ -61,6 +61,7 @@ html {
 
 html {
   color: #404040;
+  background: url('../images/creampaper.png?1352308674') repeat fixed;
 }
 
 img {
@@ -72,11 +73,11 @@ a:hover, a:active {
   outline: none;
 }
 a:link, a:visited {
-  color: deepskyblue;
+  color: #0099cc;
   text-decoration: none;
 }
 a:focus, a:hover, a:active {
-  color: #ff0080;
+  color: #b30059;
 }
 
 body h1 {
@@ -85,7 +86,7 @@ body h1 {
   line-height: 48px;
   line-height: 2.28571rem;
 }
-@media (min-width: 39.70313em) {
+@media (min-width: 41.34375em) {
   body h1 {
     font-size: 44px;
     font-size: 2.09524rem;
@@ -94,10 +95,10 @@ body h1 {
   }
 }
 body h1 a:link, body h1 a:visited {
-  color: #0099cc;
+  color: #007399;
 }
 body h1 a:focus, body h1 a:hover, body h1 a:active {
-  color: #b30059;
+  color: #660033;
 }
 body h2 {
   font-size: 30px;
@@ -105,7 +106,7 @@ body h2 {
   line-height: 48px;
   line-height: 2.28571rem;
 }
-@media (min-width: 39.70313em) {
+@media (min-width: 41.34375em) {
   body h2 {
     font-size: 32px;
     font-size: 1.52381rem;
@@ -173,22 +174,21 @@ body ul ul, body ul ol, body ol ul, body ol ol, body blockquote ul, body blockqu
 }
 
 body {
-  max-width: 635px;
-  max-width: 30.25rem;
-  padding-left: 21px;
-  padding-left: 1rem;
-  padding-right: 21px;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-body:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-body {
   margin-top: 32px;
   margin-top: 1.52381rem;
+  max-width: 31.5em;
+  margin-left: 30%;
+}
+body:before {
+  background: url('../images/megan.png?1353284982') no-repeat center 1em;
+  -webkit-background-size: 80% auto;
+  -moz-background-size: 80% auto;
+  -o-background-size: 80% auto;
+  background-size: 80% auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  content: " ";
+  width: 30%;
 }
