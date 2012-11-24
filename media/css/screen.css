@@ -54,13 +54,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-html {
-  font-size: 131.25%;
-  line-height: 1.52381em;
+@font-face {
+  font-family: "GreenMudSusy";
+  src: url('../fonts/greenmudsusy-regular-webfont.eot');
+  src: url('../fonts/greenmudsusy-regular-webfont.eot?#iefix') format('eot'), url('../fonts/greenmudsusy-regular-webfont.woff') format('woff'), url('../fonts/greenmudsusy-regular-webfont.ttf') format('truetype'), url('../fonts/greenmudsusy-regular-webfont.svg#GreenMudSusy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GreenMudSusy";
+  src: url('../fonts/greenmudsusy-bold-webfont.eot');
+  src: url('../fonts/greenmudsusy-bold-webfont.eot?#iefix') format('eot'), url('../fonts/greenmudsusy-bold-webfont.woff') format('woff'), url('../fonts/greenmudsusy-bold-webfont.ttf') format('truetype'), url('../fonts/greenmudsusy-bold-webfont.svg#GreenMudSusy') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GreenMudSusySC";
+  src: url('../fonts/greenmudsusy-smallcaps-webfont.eot');
+  src: url('../fonts/greenmudsusy-smallcaps-webfont.eot?#iefix') format('eot'), url('../fonts/greenmudsusy-smallcaps-webfont.woff') format('woff'), url('../fonts/greenmudsusy-smallcaps-webfont.ttf') format('truetype'), url('../fonts/greenmudsusy-smallcaps-webfont.svg#GreenMudSusySC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GreenMudSusySC";
+  src: url('../fonts/greenmudsusy-smallcapsbold-webfont.eot');
+  src: url('../fonts/greenmudsusy-smallcapsbold-webfont.eot?#iefix') format('eot'), url('../fonts/greenmudsusy-smallcapsbold-webfont.woff') format('woff'), url('../fonts/greenmudsusy-smallcapsbold-webfont.ttf') format('truetype'), url('../fonts/greenmudsusy-smallcapsbold-webfont.svg#GreenMudSusySC') format('svg');
+  font-weight: bold;
+  font-style: normal;
 }
 
 html {
+  font-size: 150%;
+  line-height: 1.5em;
+}
+
+html {
+  font-family: GreenMudSusy, Comic Sans MS, sans-serif;
   color: #404040;
+  color: rgba(64, 64, 64, 0.8);
   background: url('../images/creampaper.png?1352308674') repeat fixed;
 }
 
@@ -81,17 +115,17 @@ a:focus, a:hover, a:active {
 }
 
 body h1 {
-  font-size: 32px;
-  font-size: 1.52381rem;
-  line-height: 48px;
-  line-height: 2.28571rem;
+  font-size: 36px;
+  font-size: 1.5rem;
+  line-height: 54px;
+  line-height: 2.25rem;
 }
-@media (min-width: 41.34375em) {
+@media (min-width: 47.25em) {
   body h1 {
-    font-size: 44px;
-    font-size: 2.09524rem;
-    line-height: 48px;
-    line-height: 2.28571rem;
+    font-size: 50px;
+    font-size: 2.08333rem;
+    line-height: 54px;
+    line-height: 2.25rem;
   }
 }
 body h1 a:link, body h1 a:visited {
@@ -101,22 +135,22 @@ body h1 a:focus, body h1 a:hover, body h1 a:active {
   color: #660033;
 }
 body h2 {
-  font-size: 30px;
-  font-size: 1.42857rem;
-  line-height: 48px;
-  line-height: 2.28571rem;
+  font-size: 35px;
+  font-size: 1.45833rem;
+  line-height: 54px;
+  line-height: 2.25rem;
 }
-@media (min-width: 41.34375em) {
+@media (min-width: 47.25em) {
   body h2 {
-    font-size: 32px;
-    font-size: 1.52381rem;
-    line-height: 48px;
-    line-height: 2.28571rem;
+    font-size: 36px;
+    font-size: 1.5rem;
+    line-height: 54px;
+    line-height: 2.25rem;
   }
 }
 body h3 {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
+  margin-bottom: 36px;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .01em;
 }
@@ -127,8 +161,8 @@ body h5, body h6, body em, body blockquote {
   font-style: italic;
 }
 body p, body ul, body ol, body pre, body blockquote {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
+  margin-bottom: 36px;
+  margin-bottom: 1.5rem;
 }
 body p:empty {
   display: none;
@@ -140,17 +174,17 @@ body ol {
   list-style-type: decimal;
 }
 body blockquote {
-  padding: 0 24px;
-  padding: 0 1.14438rem;
-  border-left: 8px solid #cccccc;
-  border-left: 0.38095rem solid #cccccc;
+  padding: 0 27px;
+  padding: 0 1.1265rem;
+  border-left: 9px solid #cccccc;
+  border-left: 0.375rem solid #cccccc;
 }
 body blockquote em {
   font-style: normal;
 }
 body ul ul, body ul ol, body ol ul, body ol ol, body blockquote ul, body blockquote ol {
-  margin-left: 32px;
-  margin-left: 1.52381rem;
+  margin-left: 36px;
+  margin-left: 1.5rem;
 }
 
 @font-face {
@@ -174,8 +208,8 @@ body ul ul, body ul ol, body ol ul, body ol ol, body blockquote ul, body blockqu
 }
 
 body {
-  margin-top: 32px;
-  margin-top: 1.52381rem;
+  margin-top: 36px;
+  margin-top: 1.5rem;
   max-width: 31.5em;
   margin-left: 30%;
 }
