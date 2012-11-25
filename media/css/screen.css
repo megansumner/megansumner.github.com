@@ -133,6 +133,8 @@ a:focus, a:hover, a:active {
   font-size: 1.45833rem;
   line-height: 44px;
   line-height: 1.8125rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.60417rem;
 }
 @media (min-width: 34.5em) {
   [role="main"] h2 {
@@ -143,8 +145,6 @@ a:focus, a:hover, a:active {
   }
 }
 [role="main"] h3 {
-  margin-bottom: 29px;
-  margin-bottom: 1.20833rem;
   text-transform: uppercase;
   letter-spacing: .01em;
 }
